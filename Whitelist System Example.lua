@@ -1,7 +1,7 @@
 --[[
 	Welcome to this Simple ROBLOX Whitelisting for your script(s).
 
-		Author: nNullByte :)
+		Author: nNullByte :)                   
 
 	Note: This was asked of me by a friend that is new to scripting and I thought it might also help you to get an understanding of how simple whitelist systems are made.
 ]]
@@ -27,5 +27,5 @@ for i, v in pairs(HWIDTable) do
         print("The HWID is Whitelisted. HWID: ", HWID)
     elseif v ~= HWID then
         print("The HWID is not Whitelisted. HWID: ", HWID)
-    end
+    endb   roblox  flying in scrpts 
 end
